@@ -19,3 +19,12 @@ button{
 div{
     min-height: 100px;
 }
+@media (max-width: 992px) {
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+
